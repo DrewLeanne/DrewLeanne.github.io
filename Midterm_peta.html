@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> JavaScript Task Performance </title>
+
+        <style>
+
+            body {
+                background-color: rgb(233, 141, 241);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                justify-content: center;
+            }
+            h2 {
+                color:rgb(180, 36, 180)
+            }
+
+            h1{
+                color:rgb(180, 36, 180)
+            }
+
+        </style>
+
+
+    </head>
+
+    <body align="center">
+
+        <h1> PERFORMANCE TASK ~ LOOPS AND ITERATIONS </h1>
+
+        <script language="javaScript" type="text/javaScript"> 
+
+            var name = prompt("Enter your Name: ");
+            alert("Hello! " + name);
+
+            // TASK 1 - if and if else statements
+
+            // A. Display a dialog box confirming a user is 25 years old and up
+            var age = prompt("Enter your Age: ");
+                if (parseInt(age) >= 25){
+                    alert("You are "  + age  + " years old and up");         
+                } else {
+                    alert("You are not 25 years old and up");
+                }
+
+            // B. Display a dialog box confirming a user entered a number less than 100
+            var num = prompt("Enter a Number: ");
+                if (parseInt(num) < 100){
+                    alert("You entered a number less than 100");         
+                } else {
+                    alert("You entered a number greater or equal to 100");
+                }
+
+            // TASK 2 - Contruct for loops
+
+            // A. Print the numbers 0-30, one number per line
+            document.write("<h2> Numbers from 0-30 </h2>");
+                for (var n = 0; n <= 30; n++){
+                    document.write(n + "<br>");
+                }
+            
+            // B. Print only the even values from 0-40, one number per line
+            document.write("<h2> Even Numbers from 0-40 </h2>");
+                for (var n = 0; n <= 40; n += 2){
+                    document.write(n + "<br>");
+                }
+            
+            // C. Print the numbers 40 to 10 in descending order, but only the numbers are multiples of 3
+
+            document.write("<h2> Descending order of 40 to 10 (Multiples of 3) </h2>");
+                for (var n = 40; n >= 10; n--){
+                    if (n % 3 === 0) {
+                        document.write(n + "<br>");
+                    }
+                }
+            
+        </script>
+
+    </body>
+</html>
