@@ -1,0 +1,31 @@
+table{
+    
+    color: black;
+    border: 5px solid;
+    border-collapse: collapse;
+    border-top: solid purple;
+    border-bottom: solid 5px red;
+    border-left: 5px inset;
+    border-right: 5px dotted;
+    Margin: 5px;
+}
+
+tr, th, td{
+    border: outset;
+    Padding: 10px;
+    align-items: center;
+    font-family: Verdana;
+}
+
+h1{
+    color: plum;
+    font-family: Verdana;
+}
+
+img{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
